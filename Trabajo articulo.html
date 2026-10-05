@@ -4,210 +4,78 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oskar Schindler | Un Legado de Rescate</title>
-    
-    <style>
-        :root {
-            --bg-color: #ffffff; 
-            --text-color: #000000; 
-          --border-color: #000000; 
-        }
-
-    body {
-        font-family: Arial, sans-serif;
-        background-color: var(--bg-color);
-        color: var(--text-color);
-        line-height: 1.6;
-        margin: 0;
-        padding: 20px;
-    }
-
-        h1, h2, h3 { font-family: Arial, sans-serif; color: var(--text-color); }
-
-        #Encabezado-principal {
-            background-color: var(--bg-color);
-            text-align: center;
-            padding: 2rem 1rem;
-            border-bottom: 3px solid var(--border-color);
-            margin-bottom: 2rem;
-        }
-
-    #Encabezado-principal h1 {
-        margin: 0;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-    }
-
-        #Encabezado-principal p {
-            font-style: italic;
-        }
-
-        #contenedor-principal {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-
-    .seccion-articulo {
-        background: var(--bg-color);
-        padding: 1rem 0;
-        margin-bottom: 2.5rem;
-        overflow: auto; 
-    }
-        
-    .seccion-articulo h2 {
-        border-bottom: 1px solid var(--border-color);
-        padding-bottom: 0.5rem;
-    }
-
-        img { filter: grayscale(100%); }
-
-        .img-flotante-der {
-            float: right;
-            margin: 0 0 1rem 1.5rem;
-            width: 250px;
-            border: 2px solid var(--border-color);
-        }
-
-        .img-banner {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            margin-bottom: 0.5rem;
-            border: 2px solid var(--border-color);
-        }
-
-    .img-circular {
-        float: left;
-        margin: 0 1.5rem 1rem 0;
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 2px solid var(--border-color);
-    }
-
-        #galeria-imagenes {
-            display: flex;
-            gap: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .img-galeria {
-            flex: 1;
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border: 1px solid var(--border-color);
-        }
-
-    .pie-foto {
-        font-size: 0.85rem;
-        text-align: center;
-        font-style: italic;
-        margin-top: 0.5rem;
-    }
-
-        #footer-principal {
-            background-color: var(--bg-color);
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
-            border-top: 3px solid var(--border-color);
-        }
-
-        .contenedor-enlaces a {
-            color: var(--text-color);
-            text-decoration: underline;
-            font-weight: bold;
-            margin: 0 1rem;
-        }
-
-    .contenedor-enlaces a:hover {
-        background-color: var(--text-color);
-        color: var(--bg-color);
-        text-decoration: none;
-    }
-
-        @media (max-width: 600px) {
-            .img-flotante-der, .img-circular {
-                float: none;
-                display: block;
-                margin: 1rem auto;
-            }
-            #galeria-imagenes { flex-direction: column; }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
 
-  <!-- Almohadilla (#) eliminada del id -->
-  <div id="Encabezado-principal">
-      <h1>Oskar Schindler</h1>
-      <p>De Oportunista a Salvador en el Holocausto</p>
-  </div>
+    <div id="Encabezado-principal">
+        <h1>Oskar Schindler</h1>
+        <p>De Oportunista a Salvador en el Holocausto</p>
+    </div>
 
-    <div id="contenedor-principal">
+        <div id="contenedor-principal">
 
-        <div id="seccion-transformacion" class="seccion-articulo">
-            <h2>1. Una transformación inesperada</h2>
-            
-            <img src="oskar-schindler-.jpg" alt="Retrato histórico de Oskar Schindler" class="img-flotante-der">
-            
-            <p>Oskar Schindler (1908-1974) es mundialmente conocido por haber salvado a más de 1.000 judíos durante el Holocausto. Sin embargo, su perfil original no era el de un salvador ni un hombre de grandes principios morales.</p>
-            <p>En sus inicios, Schindler era un oportunista codicioso, miembro del Partido Nazi, espía de la inteligencia militar alemana (Abwehr) y un hombre de negocios que llegó a la ciudad de Cracovia en 1939 con el único objetivo de hacerse rico aprovechando los horrores de la guerra.</p>
-            <p>La aparente contradicción entre su oscuro pasado como espía y sus heroicas acciones posteriores es lo que hace fascinante su historia.</p>
-        </div>
-
-        <div id="seccion-fabrica" class="seccion-articulo">
-            <h2>2. La fábrica "Emalia" y el uso de trabajadores forzados</h2>
-            
-            <div>
-                <img src="oscar-schindler-factory.jpg" alt="Fachada de la fábrica Emalia" class="img-banner">
-                <div class="pie-foto">Fachada real de la fábrica Deutsche Emailwarenfabrik (Emalia) en Cracovia.</div>
+            <div id="seccion-transformacion" class="seccion-articulo">
+                <h2>1. Una transformación inesperada</h2>
+                
+                <img src="oskar-schindler-.jpg" alt="Retrato histórico de Oskar Schindler" class="img-flotante-der">
+                
+                <p>Oskar Schindler (1908-1974) es mundialmente conocido por haber salvado a más de 1.000 judíos durante el Holocausto. Sin embargo, su perfil original no era el de un salvador ni un hombre de grandes principios morales.</p>
+                <p>En sus inicios, Schindler era un oportunista codicioso, miembro del Partido Nazi, espía de la inteligencia militar alemana (Abwehr) y un hombre de negocios que llegó a la ciudad de Cracovia en 1939 con el único objetivo de hacerse rico aprovechando los horrores de la guerra.</p>
+                <p>La aparente contradicción entre su oscuro pasado como espía y sus heroicas acciones posteriores es lo que hace fascinante su historia.</p>
             </div>
 
-            <p>Aprovechando la ocupación nazi en Polonia, Schindler se apoderó de negocios que habían sido confiscados a los judíos. Así fue como compró una fábrica de ollas y sartenes esmaltados en Cracovia a la que rebautizó como <strong>Deutsche Emailwarenfabrik</strong> (conocida popularmente como "Emalia"). Para administrarla inteligentemente, se apoyó en el antiguo copropietario judío de la fábrica, Abraham Bankier.</p>
-            
-            
-            <img src="oskarschindlerpolishstaffmain.jpg" alt="Ollas producidas en la fábrica" class="img-circular">
-            
-            <p>Inicialmente, Schindler comenzó a emplear judíos del gueto de Cracovia como mano de obra esclava por una razón puramente económica: era más barato que pagar a trabajadores polacos. Aunque las autoridades alemanas daban total libertad y fomentaban el abuso de estos trabajadores, los testimonios de los sobrevivientes indican que Schindler siempre los trató con humanidad, prohibiendo los castigos físicos en sus instalaciones.</p>
-        </div>
-
-        <div id="seccion-rescate" class="seccion-articulo">
-            <h2>3. El inicio de los rescates y la colaboración</h2>
-            <p>Con el tiempo, al ser testigo directo de la brutalidad del régimen nazi, la mentalidad de Schindler cambió radicalmente. Comenzó a utilizar su inmensa riqueza, sus contactos, influencia e ingenio para proteger a sus empleados a toda costa.</p>
-            
-            <ul>
-                <li><strong>1942:</strong> Intervino personalmente usando sobornos para evitar que sus trabajadores fueran deportados al campo de exterminio de Belzec.</li>
-                <li><strong>1943:</strong> Durante la violenta liquidación del gueto de Cracovia, ordenó a sus trabajadores judíos que pasaran la noche escondidos dentro de la fábrica para salvarles la vida de las masacres en las calles.</li>
-            </ul>
-
-            <p>Además de proteger a sus propios empleados, Schindler actuó como mensajero de una organización judía de rescate con sede en Budapest (el Comité de Ayuda y Rescate), pasando información clasificada sobre los asesinatos en masa, además de contrabandear dinero y cartas.</p>
-
-            <div id="galeria-imagenes">
-                <div>
-                    <img src="la-lista-de-schindler.jpg" alt="Documento original de La Lista de Schindler" class="img-galeria">
-                    <div class="pie-foto">Página original de la famosa lista elaborada para salvar a los trabajadores.</div>
-                </div>
+            <div id="seccion-fabrica" class="seccion-articulo">
+                <h2>2. La fábrica "Emalia" y el uso de trabajadores forzados</h2>
                 
                 <div>
-                    <img src="istockphoto-1142900336-612x612.jpg" alt="Árbol plantado en honor a Oskar Schindler en Yad Vashem" class="img-galeria">
-                    <div class="pie-foto">Árbol en honor a Schindler como "Justo entre las Naciones" en Yad Vashem.</div>
+                    <img src="oscar-schindler-factory.jpg" alt="Fachada de la fábrica Emalia" class="img-banner">
+                    <div class="pie-foto">Fachada real de la fábrica Deutsche Emailwarenfabrik (Emalia) en Cracovia.</div>
                 </div>
+
+                <p>Aprovechando la ocupación nazi en Polonia, Schindler se apoderó de negocios que habían sido confiscados a los judíos. Así fue como compró una fábrica de ollas y sartenes esmaltados en Cracovia a la que rebautizó como <strong>Deutsche Emailwarenfabrik</strong> (conocida popularmente como "Emalia"). Para administrarla inteligentemente, se apoyó en el antiguo copropietario judío de la fábrica, Abraham Bankier.</p>
+                
+                
+                <img src="oskarschindlerpolishstaffmain.jpg" alt="Ollas producidas en la fábrica" class="img-circular">
+                
+                <p>Inicialmente, Schindler comenzó a emplear judíos del gueto de Cracovia como mano de obra esclava por una razón puramente económica: era más barato que pagar a trabajadores polacos. Aunque las autoridades alemanas daban total libertad y fomentaban el abuso de estos trabajadores, los testimonios de los sobrevivientes indican que Schindler siempre los trató con humanidad, prohibiendo los castigos físicos en sus instalaciones.</p>
+            </div>
+
+            <div id="seccion-rescate" class="seccion-articulo">
+                <h2>3. El inicio de los rescates y la colaboración</h2>
+                <p>Con el tiempo, al ser testigo directo de la brutalidad del régimen nazi, la mentalidad de Schindler cambió radicalmente. Comenzó a utilizar su inmensa riqueza, sus contactos, influencia e ingenio para proteger a sus empleados a toda costa.</p>
+                
+                <ul>
+                    <li><strong>1942:</strong> Intervino personalmente usando sobornos para evitar que sus trabajadores fueran deportados al campo de exterminio de Belzec.</li>
+                    <li><strong>1943:</strong> Durante la violenta liquidación del gueto de Cracovia, ordenó a sus trabajadores judíos que pasaran la noche escondidos dentro de la fábrica para salvarles la vida de las masacres en las calles.</li>
+                </ul>
+
+                <p>Además de proteger a sus propios empleados, Schindler actuó como mensajero de una organización judía de rescate con sede en Budapest (el Comité de Ayuda y Rescate), pasando información clasificada sobre los asesinatos en masa, además de contrabandear dinero y cartas.</p>
+
+                <div id="galeria-imagenes">
+                    <div>
+                        <img src="la-lista-de-schindler.jpg" alt="Documento original de La Lista de Schindler" class="img-galeria">
+                        <div class="pie-foto">Página original de la famosa lista elaborada para salvar a los trabajadores.</div>
+                    </div>
+                    
+                    <div>
+                        <img src="istockphoto-1142900336-612x612.jpg" alt="Árbol plantado en honor a Oskar Schindler en Yad Vashem" class="img-galeria">
+                        <div class="pie-foto">Árbol en honor a Schindler como "Justo entre las Naciones" en Yad Vashem.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer-principal">
+            <h3>Fuentes y Más Información</h3>
+            
+            <div class="contenedor-enlaces">
+
+                <a href="https://encyclopedia.ushmm.org/content/es/article/oskar-schindler" target="_blank" rel="noopener noreferrer">Enciclopedia del Holocausto (USHMM)</a>
+                <a href="https://www.yadvashem.org/es/righteous/stories/schindler.html" target="_blank" rel="noopener noreferrer">Yad Vashem - Justos entre las Naciones</a>
             </div>
         </div>
 
-    </div>
-
-    <div id="footer-principal">
-        <h3>Fuentes y Más Información</h3>
-        
-        <div class="contenedor-enlaces">
-
-            <a href="https://encyclopedia.ushmm.org/content/es/article/oskar-schindler" target="_blank" rel="noopener noreferrer">Enciclopedia del Holocausto (USHMM)</a>
-            <a href="https://www.yadvashem.org/es/righteous/stories/schindler.html" target="_blank" rel="noopener noreferrer">Yad Vashem - Justos entre las Naciones</a>
-        </div>
-    </div>
-
-</body>
+    </body>
+</html>
